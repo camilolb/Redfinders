@@ -1,0 +1,346 @@
+html{
+    position: relative;
+    
+    background-color: black;
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    display: block;
+    background-image: url("../Imagenes/fondo\ 2.pngq");
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: block;
+    background: black;
+    padding: 5px;
+}
+header h1{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+header a{
+    color: white;
+    letter-spacing: 1px;
+}
+
+header a:hover{
+    text-transform: none !important;
+    color: white;
+    text-decoration: none;
+}
+
+.headerInfoUser{
+    margin-top: 13px;
+
+}
+
+.hreftPrincipal{
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+.hreftPrincipal:hover{
+    text-decoration: none;
+}
+
+.centrarElemento{
+    display: block;
+    margin: 0 auto;
+}
+
+.hrefOlvidoContrasenia{
+    margin-top: 10px;
+}
+
+.hrefOlvidoContrasenia:hover{
+    text-decoration: none;
+}
+.botonPrincipal{
+    background: #fe0002;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.requerido{
+    color: red;
+    font-weight: bold;
+}
+
+.btnLoginEncabezado{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: bold;
+}
+
+.btnFormulario{
+    margin-top: 15px !important;
+    display: block;
+    margin: 0 auto;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btnLoginContenedor{
+    width: 100%;
+    border-radius: 2px;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.btnLoginContenedor label{
+    margin-bottom: 15px;
+
+}
+
+.width40{
+    width: 40%;
+}
+.top20Px{
+    margin-top: 20px;
+}
+
+.contenedorLogin{
+    width: 40%;
+    display: block;
+    background: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: silver;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+label{
+    color: #969696;
+}
+
+::placeholder{
+    color: #969696;
+}
+
+.contenedorLogin label{
+    text-align: center !important;
+    font-size: 15px;
+}
+
+.rojoPrimario{
+    color: #fe0002;
+}
+
+.btnLogIn{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    text-align: center !important;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 20px;
+    padding: 7px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 37px 0px #C4C4C4; 
+    box-shadow: 0px 0px 37px 0px #C4C4C4;
+}
+
+footer{
+    padding: 7px;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    bottom: 0px;
+    margin: 0 auto;
+}
+
+footer a{
+    color: white;
+    margin-right: 40px;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+    margin-left: 50px;
+}
+
+.tarjeta{
+    display: block;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 7px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 37px 0px #C4C4C4; 
+    box-shadow: 0px 0px 37px 0px #C4C4C4;
+}
+
+.tarjeta .contenedorFormulario{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+
+}
+
+.tarjeta h2{
+    position: relative;
+    display: block;
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.tarjeta > h2 > span {
+    width: 100%;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menuNavegacion{
+    width: 100%;
+    background: black;
+    margin-top: 10px;
+    display: flex;   
+}
+
+.menuNavegacion > nav{
+    display: block;
+    margin: 0 auto;
+}
+
+.menuNavegacion > nav > ul{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 0px;
+    border: 2px solid white;
+    border-radius: 7px;
+   margin-bottom: 30px;
+}
+
+.menuNavegacion > nav > ul > li{
+
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+    border-right: 3px solid white 
+}
+
+.menuNavegacion > nav > ul > li:hover{
+    background-color: #fe0002;
+}
+
+
+.menuNavegacion > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.contenedorFormulario{
+    width: 60%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    .tarjeta > h2{
+        font-size: 1rem !important;   
+    }
+
+    .contenedorFormulario{
+        width: 85% !important;
+    }
+
+    .menuNavegacion{
+        position: absolute;
+        width: 100%;
+        height: 1000px;
+        z-index: 100;
+        top: 0px;
+    }
+
+
+    .headerInfoUser{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .headerInfoUser > .col-md-4{
+        margin-top: 13px;
+    }
+
+    .headerInfoUser > .btnLoginEncabezado{
+        margin-bottom: 20px;
+    }
+
+    .menuNavegacion > nav {
+        display: block;
+        margin: 0 auto;
+        width: 95%;
+    }
+    .menuNavegacion > nav > ul{
+        display: block;
+        margin-top: 70px;
+    }
+
+    .cerrarMenu{
+        position: absolute;
+        top: 0px;
+        color: white;
+        right: 0px;
+        font-size: 33px !important;
+        z-index: 1000;
+        background: red;
+        margin-bottom: 10px;
+        padding: 6px;
+    }
+
+    .btnFormulario{
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .tarjeta{
+        margin-top: 15px;
+    }
+
+  }
