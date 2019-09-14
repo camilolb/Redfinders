@@ -11,8 +11,8 @@ function LoguearUsuario()
     if(usuario.trim() === "admin"
     && password.trim() === "admin")
     {
-        window.location.href = url + "validNumber.html";
-        location.replace(url + "validNumber.html")
+        window.location.href = "./validNumber.html";
+        //location.replace(url + "validNumber.html")
     }else{
         alert("Usuario o contraseña incorrectos");
     }
