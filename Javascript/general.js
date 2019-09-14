@@ -1,4 +1,24 @@
 
+function LoguearUsuario()
+{
+    var usuario = $("#email").val();
+    var password = $("#password").val();
+
+    var url = "C:/Users/Camilo/Desktop/Maqueta/";
+
+    debugger;
+
+    if(usuario.trim() === "admin"
+    && password.trim() === "admin")
+    {
+        window.location.href = url + "validNumber.html";
+        location.replace(url + "validNumber.html")
+    }else{
+        alert("Usuario o contraseña incorrectos");
+    }
+
+}
+
 
 
 $( document ).ready(function() {

@@ -45,15 +45,15 @@
                     <br>
                     <div class="col-md-12" style="text-align: center">
                         <label> Email or Phone</label>
-                        <input type="text" class="form-control" placeholder="Email or phone">
+                        <input type="text" class="form-control" id="email" placeholder="Email or phone" required>
                     </div>
                     <div class="col-md-12" style="text-align: center; margin-top: 13px;">
                         <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
                     </div>
         
                     <div class="col-md-12 top20Px">
-                        <button type="submit" class="botonPrincipal btnLoginContenedor">Log in</button>
+                        <button type="submit" onclick="LoguearUsuario()" class="botonPrincipal btnLoginContenedor">Log in</button>
                     </div>
                     <div class="row top20Px">
                         <div class="col-md-12" style="display: flex; margin-bottom: 20px">
@@ -81,10 +81,11 @@
                     <a href="#">Private policy</a>
             </div>
         </div>
-
-
-
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--General-->
+    <script src="./Javascript/general.js"></script>
 
 </body>
 </html>

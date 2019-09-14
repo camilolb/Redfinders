@@ -9,7 +9,7 @@ html,body{
 
 body{
     display: block;
-    background-image: url("../Imagenes/fondo2.png");
+    background-image: url("../Imagenes/fondo\ 2.pngq");
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
@@ -344,6 +344,7 @@ footer p{
     }
 
     .contenedorLogin{
+        margin-top: 20px;
         width: 100%;
     }
 
