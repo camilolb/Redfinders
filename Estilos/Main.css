@@ -280,6 +280,13 @@ footer p{
 
 @media (max-width: 768px) {
 
+    footer{
+        display: none !important;
+    }
+
+    .tarjeta{
+        margin-bottom: 100px;
+    }
     .tarjeta > h2{
         font-size: 1rem !important;   
     }
@@ -346,6 +353,8 @@ footer p{
     .contenedorLogin{
         margin-top: 20px;
         width: 100%;
+        margin-bottom: 100px;
+
     }
 
   }
