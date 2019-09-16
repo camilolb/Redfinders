@@ -9,7 +9,7 @@ html,body{
 
 body{
     display: block;
-    background-image: url("../Imagenes/fondo2.png2");
+    background-image: url("../Imagenes/fondo2.png");
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
