@@ -9,7 +9,7 @@ html,body{
 
 body{
     display: block;
-    background-image: url("../Imagenes/fondo2.png");
+    background-image: url("../Imagenes/fondo2.png2");
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,6 +163,21 @@ label{
     box-shadow: 0px 0px 37px 0px #C4C4C4;
 }
 
+.contenedorTarjetaGeneral{
+    padding: 15px;
+}
+
+.foto{
+    background: #D8D8D8;
+    width: 25%;
+    display: inline-block;
+    height: 195px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
 footer{
     padding: 7px;
     position: absolute;
@@ -273,6 +288,58 @@ footer p{
 .ocultar{
     display: none;
 }
+
+/*Subir imagenes */ 
+
+.uploadImage{
+    background: #DDDDDD;
+    color: #8A8A8A;
+    padding: 15px;
+    text-align: center;
+}
+
+.dragAndDrop{
+    border-style: dashed;
+    padding: 25px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: block;
+    padding: 5px 12px;
+    cursor: pointer;
+    width: 150px;
+    background: #FE0002;
+    margin: 0 auto;
+    color: white; 
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+/*Creditos */
+.sumary{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.sumary > .row{
+    margin-bottom: 35px;
+}
+
+.totalPrecio{
+    background: #D8D8D8;
+}
+
+.totalPrecio ul {
+    list-style: none;
+    padding: 1rem;
+}
+
 
 .mostrar{
     display: block;
