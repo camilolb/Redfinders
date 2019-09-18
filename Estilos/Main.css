@@ -9,7 +9,7 @@ html,body{
 
 body{
     display: block;
-    background-image: url("../Imagenes/fondo2.png2");
+    background-image: url("../Imagenes/fondo2.png");
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
@@ -370,6 +370,80 @@ input[type="file"] {
     font-size: 15px;
 }
 
+/* Registro*/
+.register{
+
+    background-image: url("../Imagenes/fondo.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.register label{
+    color: white;
+}
+
+
+.register .containerRegistro{
+    background: black !important;
+    -webkit-box-shadow: none !important; 
+    box-shadow: none !important;
+    box-shadow: transparent !important;
+}
+
+.register input[type=text]{
+    background: black !important;
+    color: white;
+}
+.register input[type=text]::placeholder{
+    color: silver !important;
+}
+
+.register .containerRegistro h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.register .containerRegistro h2 span{
+    color: #fe0002;
+    font-size: 22px;
+}
+
+.register .containerRegistro .tarjetaRegistro{
+    background: transparent;
+    width: 100% !important;
+    display: block;
+    padding: 10px
+}
+
+.register .containerRegistro .tarjetaRegistro .col-md-8{
+    max-width: none !important;
+    background: transparent;
+    color: white;
+
+}
+
+.register .containerRegistro .tarjetaRegistro .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.register .containerRegistro:after {
+    content: '\00a0';
+    background-image:
+      radial-gradient(at 50% 0, blue 0%, red 50%, transparent 75%);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    float:left;
+    width:100%;
+}
 
 
 
