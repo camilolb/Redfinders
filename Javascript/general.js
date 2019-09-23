@@ -24,6 +24,8 @@ function LoguearUsuario()
 $( document ).ready(function() {
     
     var resolucion = window.screen.width;
+
+    $(".toggle").removeClass("btn-primary");
     
 
     if(resolucion >= 768){
