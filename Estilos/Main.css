@@ -39,6 +39,14 @@ header a:hover{
     text-decoration: none;
 }
 
+input[type=text]{
+
+    border: 1px solid silver;
+    border-radius: 0px !important;
+    color: black;
+
+}
+
 .headerInfoUser{
     margin-top: 13px;
 
@@ -56,6 +64,10 @@ header a:hover{
 .centrarElemento{
     display: block;
     margin: 0 auto;
+}
+
+.sinFondo{
+    background-image: none !important;
 }
 
 .hrefOlvidoContrasenia{
@@ -76,6 +88,14 @@ header a:hover{
 .requerido{
     color: red;
     font-weight: bold;
+}
+
+.btnPrincipalBlanco{
+    background: white !important;
+    border:1px solid silver;
+    color: black;
+    
+
 }
 
 .btnLoginEncabezado{
@@ -169,13 +189,9 @@ label{
 
 .foto{
     background: #D8D8D8;
-    width: 25%;
-    display: inline-block;
+    width: 100%;
+    display: block;
     height: 195px;
-    padding: 10px;
-    margin-right: 10px;
-    margin-top: 25px;
-    margin-bottom: 10px;
 }
 
 footer{
@@ -548,6 +564,76 @@ input[type="file"] {
 .mejorar .btn-primary{
     background: red;
 }
+
+
+/*CREDITO */ 
+
+.credito label{
+    margin-left: 4px;
+    margin-top: 13px;
+    font-weight: 600;
+}
+
+.credito label span{
+    margin-left: 8px;
+}
+
+.totalPrecio li{
+    font-size: 19px;
+    padding: 1rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.centrarCreditos{
+    justify-content: center;
+}
+
+.numeroEscondido .col-md-1{
+    width: 100%;
+    height: 20px;
+    color: red;
+    background: #7C7C7C;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.metodosPago{
+    width: 100%;
+    height: 100px;
+    background: silver;
+
+}
+
+.metodosPago p{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.centrarCreditos .btnFormulario{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
+}
+
+/*HOME*/
+.locacionCategoria{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.locacionCategoria i{
+    color: red;
+    font-size: 23px;
+    padding: 2px;
+}
+
+
+
 
 
 
