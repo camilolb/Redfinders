@@ -1,7 +1,6 @@
 html{
     position: relative;
-    
-    background-color: black;
+
 }
 html,body{
     height: 100%;
@@ -94,8 +93,6 @@ input[type=text]{
     background: white !important;
     border:1px solid silver;
     color: black;
-    
-
 }
 
 .btnLoginEncabezado{
@@ -633,8 +630,145 @@ input[type="file"] {
 }
 
 
+/* Category scort*/
+.buscadorScort button{
+    margin-top: 0px !important;
+}
+
+.cuadro{
+    width:  100%;
+    height: 130px;
+    background: white;
+ }
+
+.tarjetaNegra{
+    background-color: black !important;
+    background: black !important;
+    color: white !important;
+}
+
+.tarjetaNegra h6{
+    width: 100%;
+    text-align: center;
+    background: white;
+    border-radius: 3px;
+    padding: 7px;
+    color: black;
+}
+
+.carruselImagenes{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contenedorScort{
+background: rgb(0,0,0);
+height: 240px;
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
+    border-radius: 5px;
+    border: 3px solid #790303;
+}
+
+.contenedorScort img{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.contenedorScort p{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
+
+/* ACCOUNT */
+.miCuenta .contenedorMiCuenta{
+    background: #F5F5F5;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.contenedorMiCuenta h6{
+    font-weight: 500;
+    color: #2A3845;
+}
+
+.contenedorMiCuenta h6:first-child{
+    margin-top: 15px;
+}
+
+
+.contenedorMiCuenta button{
+    background: #2A3746;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+    border: 0px;
+}
+
+.contenedorMiCuenta .miPublicidad{
+    color: #2A3845;
+    font-weight: 600;
+}
+
+
+
+.contenedorMiCuenta ul{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.contenedorMiCuenta li{
+    margin-top: 5px;
+}
+.Notificacion{
+    background: #E5E5E5;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 11px;
+}
+
+.misNotificaciones i{
+
+    background: red;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    color:#ECEBEB;
+
+}
+
+.miCuenta h6{
+ 
+    background: #F8F8F8;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.miCuenta input{
+    margin-top:20px;
+}
+
+.imgDragAndDrop{
+    border: 1px solid silver;
+}
+
+.imgDragAndDrop img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
 @media (max-width: 768px) {
@@ -682,6 +816,7 @@ input[type="file"] {
         margin: 0 auto;
         width: 95%;
     }
+
     .menuNavegacion > nav > ul{
         display: block;
         margin-top: 70px;
@@ -713,7 +848,35 @@ input[type="file"] {
         margin-top: 20px;
         width: 100%;
         margin-bottom: 100px;
+    }
 
+
+    /* ACCOUNT */
+    .misNotificaciones img {
+        display: block !important;
+        margin: 0 auto !important;
     }
 
   }
+
+
+  /*General */
+  /* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon i {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon i  { left:  0px;}
+.right-addon i { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
