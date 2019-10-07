@@ -134,7 +134,7 @@ input[type=text]{
 }
 
 .contenedorLogin{
-    width: 40%;
+    width: 37%;
     display: block;
     background: white;
     border: 1px solid silver;
@@ -142,6 +142,8 @@ input[type=text]{
     color: silver;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
 }
 
 label{
@@ -191,26 +193,33 @@ label{
     height: 195px;
 }
 
-footer{
-    padding: 7px;
-    position: absolute;
-    width: 100%;
-    background-color: black;
-    bottom: 0px;
-    margin: 0 auto;
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   opacity: 0.9;
 }
 
-footer a{
+
+
+.footer a{
     color: white;
     margin-right: 40px;
+    padding: 10px;
+    font-size: 15px;
 }
 
-footer a:hover{
+.footer a:hover{
     color: white;
     text-decoration: none;
 }
 
-footer p{
+.footer p{
     color: white;
     margin-left: 50px;
 }
@@ -663,7 +672,7 @@ input[type="file"] {
 
 .contenedorScort{
 background: rgb(0,0,0);
-height: 240px;
+height: 170px;
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
     border-radius: 5px;
     border: 3px solid #790303;
@@ -676,7 +685,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
     padding: 15px;
 }
 
-.contenedorScort p{
+.textoScort{
     background-color: white;
     color: black;
     text-transform: uppercase;
@@ -684,6 +693,9 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
     padding: 10px;
     font-size: 14px;
     font-weight: 600;
+    border: 6px solid #790303;
+    margin-top: -10px;
+    height: 70px;
 }
 
 
@@ -771,11 +783,45 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
 }
 
 
+@media screen and (max-width: 1280px) and (min-width: 769px){
+
+    .contenedorLogin{
+        margin-top: 20px !important;
+    }
+
+}
+
+
 @media (max-width: 768px) {
 
-    footer{
-        display: none !important;
+    body{
+        background-repeat: repeat-y !important;
     }
+
+    .footer{
+        position: unset !important;
+        text-align: center !important;
+    }
+
+    .footer p{
+        margin-left: 0px !important;
+        text-align: center !important;
+        font-size: 12px;
+    }
+
+    .footer a{
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+    .footer .col-md-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;        
+    }
+
 
     .tarjeta{
         margin-bottom: 100px;
