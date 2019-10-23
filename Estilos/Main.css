@@ -3,7 +3,7 @@ html{
 
 }
 html,body{
-    height: 100%;
+      height: 100%;
 }
 
 body{
@@ -123,7 +123,6 @@ input[type=text]{
 
 .btnLoginContenedor label{
     margin-bottom: 15px;
-
 }
 
 .width40{
@@ -446,7 +445,6 @@ input[type="file"] {
     max-width: none !important;
     background: transparent;
     color: white;
-
 }
 
 .register .containerRegistro .tarjetaRegistro .col-md-4{
@@ -797,6 +795,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
     body{
         background-repeat: repeat-y !important;
     }
+    .formDetails .col-md-3{
+        text-align: left !important;
+    }
+
+    .formDetails .col-md-3 label{
+        margin-left: 0px !important;
+    }
+
+
 
     .footer{
         position: unset !important;
@@ -823,9 +830,6 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
     }
 
 
-    .tarjeta{
-        margin-bottom: 100px;
-    }
     .tarjeta > h2{
         font-size: 1rem !important;   
     }
@@ -902,6 +906,92 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,3,3,1) 51%);
         display: block !important;
         margin: 0 auto !important;
     }
+
+    /*CREDITOS */
+
+    .creditos label{
+        font-size: 13px;
+    }
+    
+    .creditos .foto{
+        margin-bottom: 5px;
+    }
+
+    .creditos li{
+        font-size: 15px !important;
+        padding: .5rem !important; 
+
+    }
+
+    .credito .totalPrecio{
+        font-size: 15px;
+    }
+
+    .credito .centrarCreditos .btnFormulario{
+        margin-top: 5px;
+        margin-bottom: 5px;        
+    }
+
+
+    .credito .numeroEscondido{
+        display: none;
+    }
+
+    .credito .metodosPago p{
+        font-size: 15px;
+    }
+
+    .credito .tarjeta {
+        margin-bottom: 0px;
+    }
+
+    .credito .botonPrincipal{
+        width: 80%;
+    }
+
+    /* DETALLES  */
+
+    .detalles .formDetails .col-md-3{
+        text-align: left;
+    }
+
+    .detalles .formDetails .col-md-3 label{
+        margin-left: 0px !important;
+    }
+
+    /* home */
+    .home .locacionCategoria{
+        margin-left: 0px !important;
+    }  
+
+    /* INDEX */
+    .index h2{
+        font-size: 15px;
+    }
+    .register .containerRegistro h2 span{
+        font-size: 15px !important;
+    }
+
+
+    /* TERMS OF USE */
+
+    .aceptarTerminos img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .aceptarTerminos .mb-3{
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    
+
+
+
+
+
 
   }
 
